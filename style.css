@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    border: 1px solid black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.container-header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-header nav ul {
+    display: flex;
+}
+
+.container-header nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.container-header nav ul li a button {
+    width: 110px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 50px;
+}
+.container-main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img-main {
+    border-radius: 10px;
+    background-image: url("./assets/minha\ foto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 400px;
+}
