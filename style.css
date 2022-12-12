@@ -51,6 +51,7 @@ header {
 main {
     margin-top: 100px;
 }
+
 .container-main {
     width: 90%;
     margin: 0 auto;
@@ -92,7 +93,7 @@ h2 {
 }
 
 .projects {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -100,21 +101,118 @@ h2 {
 }
 
 .project {
-    border: 1px solid black;
-    padding: 20px;
+    border: 1px solid rgb(141, 139, 139);
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project p {
+    text-align: left;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 15px 0 0 20px;
 }
 
 .img-project {
-    width: 100%;
-    height: 150px;
-    background-color: rgba(0, 0, 0, 0.411);
+    width: 300px;
+    height: 200px;
+    background-image: url('./assets/Qrcode.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.bnt-project {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bnt-project ul {
     display: flex;
+    
 }
 
 .bnt-project ul li {
     list-style: none;
-    margin-left: 10px;
+    margin-left: 20px;
 }
+
+.bnt-project ul li a button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.959);
+    height: 300px;
+    color: #FFF;
+}
+
+.social-midia {
+    width: 90%;
+    margin: auto;
+}
+
+.social-midia .box {
+    width: 20%;
+    margin: 15px auto 15px 880px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.social-midia .box p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.img-linkedin,.img-outlook,.img-github {
+    height: 50px;
+    width: 50px;
+}
+
+.img-linkedin {
+    background-color: #FFF;
+    border-radius: 80px;
+    background-image: url('./assets/LinkedIn_Rounded_icon-icons.com_61573.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-outlook {
+    border-radius: 50%;
+    background-color: #FFF;
+    background-image: url('./assets/Outlook_icon-icons.com_68993.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-github {
+    border-radius: 50%;
+    background-color: #FFF;
+    background-image: url('./assets/github_icon-icons.com_65450.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .social-midia .box:nth-child(1) {
+
+} */
