@@ -15,7 +15,7 @@ a{
 }
 
 header {
-    border: 1px solid black;
+    margin-top: 10px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ header {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .container-main {
     width: 90%;
@@ -74,4 +74,19 @@ h2 {
 .title-main p{
     font-size: 18px;
     margin-left: 30px;
+}
+
+.experience {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 40px;
+}
+
+.experience p {
+    font-size: 18px;
+    margin-top: 15px;
 }
