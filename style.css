@@ -90,3 +90,31 @@ h2 {
     font-size: 18px;
     margin-top: 15px;
 }
+
+.projects {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.img-project {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.bnt-project ul {
+    display: flex;
+}
+
+.bnt-project ul li {
+    list-style: none;
+    margin-left: 10px;
+}
