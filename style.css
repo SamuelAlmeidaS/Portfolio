@@ -3,15 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 a{
     font-size: 18px;
     color: black;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -119,18 +124,33 @@ h4 {
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    margin: 15px 0 0 20px;
+    margin: 15px 0 0 15px;
 }
 
 .img-project {
     width: 300px;
     height: 200px;
-    background-image: url('./assets/Qrcode.jpeg');
+    background-image: url('./assets/embreve.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
+
+.qr{
+    background-image: url('./assets/Qrcode.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.medi{
+    background-image: url('./assets/Home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bnt-project {
     margin-top: 20px;
     display: flex;
@@ -159,7 +179,7 @@ h4 {
 
 footer {
     background-color: rgba(0, 0, 0, 0.959);
-    height: 300px;
+    min-height: 300px;
     color: #FFF;
 }
 
@@ -213,6 +233,19 @@ footer {
     background-position: center;
 }
 
-/* .social-midia .box:nth-child(1) {
+footer hr {
+    width: 90%;
+    margin: auto;
+}
 
-} */
+footer p {
+    margin: 10px 0 0 100px;
+}
+
+footer p a {
+    color: #FFF;
+}
+
+footer p a:hover {
+    color: rgb(35, 35, 187);
+}
