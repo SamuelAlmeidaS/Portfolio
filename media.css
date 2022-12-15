@@ -20,12 +20,27 @@
     }
 
     .project {
-        width: 300px;
+        width: 90%;
     }
 
     .img-project {
         border: 1px solid black;
-        width: 50px;
-        
+        margin: auto;
+        width: 600px;
+        height: 500px;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .social-midia .box {
+        position: absolute;
+        right: 0;
+    }
+
+    .box {
+        position: relative;
+        bottom: 0;
     }
 }
