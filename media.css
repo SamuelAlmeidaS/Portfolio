@@ -1,0 +1,31 @@
+@media  screen and (max-width: 720px) {
+    header {
+        width: 90%;
+        margin: auto;
+    }
+
+    .img-main {
+        width: 250px;
+        height: 200px;
+        background-position: center;
+        border: 1px solid black;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .projects {
+        border: 1px solid black;
+    }
+
+    .project {
+        width: 300px;
+    }
+
+    .img-project {
+        border: 1px solid black;
+        width: 50px;
+        
+    }
+}
